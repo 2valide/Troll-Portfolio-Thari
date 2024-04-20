@@ -1,0 +1,37 @@
+/* side header */
+.Container {
+    background-color: #FAEBD7;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    z-index: 100;
+    position: static;
+    top: 0;
+    left: 0;
+    right: 0;
+    float: left;
+
+    height: 100vh;
+
+}
+
+.Container ul li {
+    /* width: 184px; */
+    /* height: 40px; */
+
+    font-family: 'Satoshi-Bold', sans-serif;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 44.55px;
+
+    border-bottom: 2px solid black;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FirstContent {
+    font-size: 47px !important;
+}
